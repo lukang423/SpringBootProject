@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/firstdatabase?useSSL=true
+    username: root
+    password: 114477
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 10
+
+
